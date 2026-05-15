@@ -25,9 +25,34 @@
 
 .team-role {
   text-align: center;
+  padding-bottom: 8px;
 }
 
 .team-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
+}
+
+.team-social-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.team-social-icon {
+  fill: #f4f4fd;
+}
+
+.team-item:hover .team-social-link,
+.team-item:focus .team-social-link {
+  background-color: #404bbf;
 }
