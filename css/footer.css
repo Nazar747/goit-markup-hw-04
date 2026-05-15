@@ -29,10 +29,34 @@
   padding-bottom: 16px;
 }
 
-.footer .container > ul {
+.footer-blocks {
   display: flex;
 }
 
-.social-media-list {
+.footer-social-block {
   margin-left: 120px;
+}
+
+.footer-social-links {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+
+.footer-social-icon {
+  fill: #f4f4fd;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
 }
