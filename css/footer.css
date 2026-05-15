@@ -22,3 +22,17 @@
   padding-top: 16px;
   max-width: 264px;
 }
+
+.footer-social-text {
+  color: #ffffff;
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+
+.footer .container > ul {
+  display: flex;
+}
+
+.social-media-list {
+  margin-left: 120px;
+}
