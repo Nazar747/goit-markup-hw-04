@@ -11,3 +11,10 @@
   color: #2e2f42;
   margin-bottom: 8px;
 }
+
+.features-icon {
+  margin-bottom: 8px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: solid 1px #8e8f99;
+}
