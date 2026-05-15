@@ -1,0 +1,33 @@
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-content-section {
+  padding: 32px 16px;
+}
+
+.team-title {
+  color: #2e2f42;
+  text-align: center;
+  padding-bottom: 72px;
+}
+
+.team-name {
+  color: #2e2f42;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.team-role {
+  text-align: center;
+}
+
+.team-item {
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+}
