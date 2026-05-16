@@ -28,7 +28,10 @@
 
 .portfolio-item:hover,
 .portfolio-item:focus {
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-img-section {
@@ -42,7 +45,7 @@
   border: 1px solid #e7e9fc;
   border-bottom: none;
   display: flex;
-  padding: 40px 32px 0 32px;
+  padding: 40px 32px;
   height: 100%;
   width: 100%;
   position: absolute;
