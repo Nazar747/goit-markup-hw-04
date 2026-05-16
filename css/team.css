@@ -58,6 +58,6 @@
 }
 
 .team-item:hover .team-social-link,
-.team-item:focus .team-social-link {
+.team-social-link:focus {
   background-color: #404bbf;
 }
